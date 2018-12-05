@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D2FFAEF5-EA29-4DB1-915B-51F38E6574C4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LittleTank</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>pdcurs34\;.\;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>pdcurs34\;.\;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AgentsMgr.h" />
+    <ClInclude Include="agents\b02901000.h" />
+    <ClInclude Include="agents\b02901xxx.h" />
+    <ClInclude Include="basic.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Missile.h" />
+    <ClInclude Include="pdcurs34\curses.h" />
+    <ClInclude Include="pdcurs34\curspriv.h" />
+    <ClInclude Include="pdcurs34\panel.h" />
+    <ClInclude Include="pdcurs34\term.h" />
+    <ClInclude Include="pdcurs34\win32\pdcwin.h" />
+    <ClInclude Include="PolicyMaker.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="Team.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basic.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="pdcurs34\pdcurses\addch.c" />
+    <ClCompile Include="pdcurs34\pdcurses\addchstr.c" />
+    <ClCompile Include="pdcurs34\pdcurses\addstr.c" />
+    <ClCompile Include="pdcurs34\pdcurses\attr.c" />
+    <ClCompile Include="pdcurs34\pdcurses\beep.c" />
+    <ClCompile Include="pdcurs34\pdcurses\bkgd.c" />
+    <ClCompile Include="pdcurs34\pdcurses\border.c" />
+    <ClCompile Include="pdcurs34\pdcurses\clear.c" />
+    <ClCompile Include="pdcurs34\pdcurses\color.c" />
+    <ClCompile Include="pdcurs34\pdcurses\debug.c" />
+    <ClCompile Include="pdcurs34\pdcurses\delch.c" />
+    <ClCompile Include="pdcurs34\pdcurses\deleteln.c" />
+    <ClCompile Include="pdcurs34\pdcurses\deprec.c" />
+    <ClCompile Include="pdcurs34\pdcurses\getch.c" />
+    <ClCompile Include="pdcurs34\pdcurses\getstr.c" />
+    <ClCompile Include="pdcurs34\pdcurses\getyx.c" />
+    <ClCompile Include="pdcurs34\pdcurses\inch.c" />
+    <ClCompile Include="pdcurs34\pdcurses\inchstr.c" />
+    <ClCompile Include="pdcurs34\pdcurses\initscr.c" />
+    <ClCompile Include="pdcurs34\pdcurses\inopts.c" />
+    <ClCompile Include="pdcurs34\pdcurses\insch.c" />
+    <ClCompile Include="pdcurs34\pdcurses\insstr.c" />
+    <ClCompile Include="pdcurs34\pdcurses\instr.c" />
+    <ClCompile Include="pdcurs34\pdcurses\kernel.c" />
+    <ClCompile Include="pdcurs34\pdcurses\keyname.c" />
+    <ClCompile Include="pdcurs34\pdcurses\mouse.c" />
+    <ClCompile Include="pdcurs34\pdcurses\move.c" />
+    <ClCompile Include="pdcurs34\pdcurses\outopts.c" />
+    <ClCompile Include="pdcurs34\pdcurses\overlay.c" />
+    <ClCompile Include="pdcurs34\pdcurses\pad.c" />
+    <ClCompile Include="pdcurs34\pdcurses\panel.c" />
+    <ClCompile Include="pdcurs34\pdcurses\printw.c" />
+    <ClCompile Include="pdcurs34\pdcurses\refresh.c" />
+    <ClCompile Include="pdcurs34\pdcurses\scanw.c" />
+    <ClCompile Include="pdcurs34\pdcurses\scroll.c" />
+    <ClCompile Include="pdcurs34\pdcurses\scr_dump.c" />
+    <ClCompile Include="pdcurs34\pdcurses\slk.c" />
+    <ClCompile Include="pdcurs34\pdcurses\termattr.c" />
+    <ClCompile Include="pdcurs34\pdcurses\terminfo.c" />
+    <ClCompile Include="pdcurs34\pdcurses\touch.c" />
+    <ClCompile Include="pdcurs34\pdcurses\util.c" />
+    <ClCompile Include="pdcurs34\pdcurses\window.c" />
+    <ClCompile Include="pdcurs34\win32\pdcclip.c" />
+    <ClCompile Include="pdcurs34\win32\pdcdisp.c" />
+    <ClCompile Include="pdcurs34\win32\pdcgetsc.c" />
+    <ClCompile Include="pdcurs34\win32\pdckbd.c" />
+    <ClCompile Include="pdcurs34\win32\pdcscrn.c" />
+    <ClCompile Include="pdcurs34\win32\pdcsetsc.c" />
+    <ClCompile Include="pdcurs34\win32\pdcutil.c" />
+    <ClCompile Include="PolicyMaker.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

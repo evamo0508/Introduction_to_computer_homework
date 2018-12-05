@@ -1,0 +1,290 @@
+# depslib dependency file v1.0
+1400310272 source:d:\104-2\introduction_to_computer\hw6\basic.cpp
+	"basic.h"
+	<string>
+	<cstdio>
+	<cstdarg>
+	<cstring>
+
+1400317862 d:\104-2\introduction_to_computer\hw6\basic.h
+	"curses.h"
+	<ctime>
+	<cstdio>
+	<cstdlib>
+
+1400953622 d:\104-2\introduction_to_computer\hw6\pdcurs34\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+
+1401367256 source:d:\104-2\introduction_to_computer\hw6\game.cpp
+	"basic.h"
+	"Game.h"
+
+1400308764 d:\104-2\introduction_to_computer\hw6\game.h
+	"basic.h"
+	"Map.h"
+	"Missile.h"
+	"Tank.h"
+	"Team.h"
+	"PolicyMaker.h"
+	"AgentsMgr.h"
+	<vector>
+
+1400311402 d:\104-2\introduction_to_computer\hw6\map.h
+	"basic.h"
+
+1399195406 d:\104-2\introduction_to_computer\hw6\missile.h
+	<list>
+	"basic.h"
+	"Map.h"
+
+1464165748 d:\104-2\introduction_to_computer\hw6\tank.h
+	"basic.h"
+	"Map.h"
+	"Team.h"
+	"Missile.h"
+
+1400128188 d:\104-2\introduction_to_computer\hw6\team.h
+	"basic.h"
+	<vector>
+
+1400312120 d:\104-2\introduction_to_computer\hw6\policymaker.h
+	<vector>
+	<cstdlib>
+	<cstring>
+	<string>
+	"basic.h"
+	"Map.h"
+	"Tank.h"
+	"Missile.h"
+
+1465663973 d:\104-2\introduction_to_computer\hw6\agentsmgr.h
+	<vector>
+	<string>
+	<cstdio>
+	"agents/b04901164.h"
+	"agents/b02901000.h"
+
+1400952954 d:\104-2\introduction_to_computer\hw6\agents\b02901xxx.h
+	"../PolicyMaker.h"
+
+1400952978 d:\104-2\introduction_to_computer\hw6\agents\b02901000.h
+	"../PolicyMaker.h"
+
+1466008259 source:d:\104-2\introduction_to_computer\hw6\main.cpp
+	<cstdlib>
+	<ctime>
+	"Game.h"
+
+1400313434 source:d:\104-2\introduction_to_computer\hw6\map.cpp
+	<cstdlib>
+	"basic.h"
+	"Map.h"
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\addch.c
+	<curspriv.h>
+
+1215965296 d:\104-2\introduction_to_computer\hw6\pdcurs34\curspriv.h
+	<config.h>
+	<curses.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\addchstr.c
+	<curspriv.h>
+	<string.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\addstr.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\attr.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\beep.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\bkgd.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\border.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\clear.c
+	<curspriv.h>
+
+1400950236 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\color.c
+	<curspriv.h>
+	<stdlib.h>
+	<string.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\debug.c
+	<curspriv.h>
+	<string.h>
+	<sys/types.h>
+	<time.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\delch.c
+	<curspriv.h>
+	<string.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\deleteln.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\deprec.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\getch.c
+	<curspriv.h>
+
+1216009492 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\getstr.c
+	<curspriv.h>
+
+1216142006 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\getyx.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\inch.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\inchstr.c
+	<curspriv.h>
+
+1400952240 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\initscr.c
+	<curspriv.h>
+	<stdlib.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\inopts.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\insch.c
+	<curspriv.h>
+	<string.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\insstr.c
+	<curspriv.h>
+	<string.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\instr.c
+	<curspriv.h>
+
+1216142006 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\kernel.c
+	<curspriv.h>
+	<string.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\keyname.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\mouse.c
+	<curspriv.h>
+	<string.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\move.c
+	<curspriv.h>
+
+1216038134 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\outopts.c
+	<curspriv.h>
+
+1216038924 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\overlay.c
+	<curspriv.h>
+
+1216038134 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\pad.c
+	<curspriv.h>
+	<string.h>
+
+1216038924 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\panel.c
+	<curspriv.h>
+	<panel.h>
+	<stdlib.h>
+
+1215965296 d:\104-2\introduction_to_computer\hw6\pdcurs34\panel.h
+	<curses.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\printw.c
+	<curspriv.h>
+	<string.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\refresh.c
+	<curspriv.h>
+	<string.h>
+
+1216038134 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\scanw.c
+	<curspriv.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	<limits.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\scr_dump.c
+	<curspriv.h>
+	<stdlib.h>
+	<string.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\scroll.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\slk.c
+	<curspriv.h>
+	<stdlib.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\termattr.c
+	<curspriv.h>
+	<string.h>
+	<limits.h>
+
+1216643360 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\terminfo.c
+	<curspriv.h>
+	<term.h>
+
+1215965296 d:\104-2\introduction_to_computer\hw6\pdcurs34\term.h
+	<curses.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\touch.c
+	<curspriv.h>
+
+1215965298 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\util.c
+	<curspriv.h>
+	<string.h>
+	<stdlib.h>
+
+1400952536 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\pdcurses\window.c
+	<curspriv.h>
+	<stdlib.h>
+
+1216009492 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\win32\pdcclip.c
+	"pdcwin.h"
+
+1215930992 d:\104-2\introduction_to_computer\hw6\pdcurs34\win32\pdcwin.h
+	<windows.h>
+	<curspriv.h>
+
+1216009492 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\win32\pdcdisp.c
+	"pdcwin.h"
+	<stdlib.h>
+	<string.h>
+
+1216009492 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\win32\pdcgetsc.c
+	"pdcwin.h"
+
+1216584724 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\win32\pdckbd.c
+	"pdcwin.h"
+
+1216584724 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\win32\pdcscrn.c
+	"pdcwin.h"
+
+1216009492 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\win32\pdcsetsc.c
+	"pdcwin.h"
+
+1194478248 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\win32\pdcurses.rc
+	"winver.h"
+
+1216009492 source:d:\104-2\introduction_to_computer\hw6\pdcurs34\win32\pdcutil.c
+	"pdcwin.h"
+
+1465720067 source:d:\104-2\introduction_to_computer\hw6\policymaker.cpp
+	"PolicyMaker.h"
+
+1465130978 d:\104-2\introduction_to_computer\hw6\agents\b02901164.h
+	"../PolicyMaker.h"
+
+1466007232 d:\104-2\introduction_to_computer\hw6\agents\b04901164.h
+	"../PolicyMaker.h"
+
